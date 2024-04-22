@@ -19,7 +19,6 @@ public class RandomStringChooser {
             return "NONE";
         }
         int randomIndex = (int)(Math.random() * availableStrings.size());
-        return availableStrings(randomIndex);
-            availableStrings.remove(randomIndex);
+        return availableStrings.remove(randomIndex);
     }
 }
